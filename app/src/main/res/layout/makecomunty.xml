@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/ctv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="제목"
+            android:textSize="30sp"/>
+        <EditText
+            android:id="@+id/cet1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="제목을 입력하시오"/>
+        <TextView
+            android:id="@+id/ctv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="내용"
+            android:textSize="30sp"/>
+
+        <EditText
+            android:id="@+id/cet2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9"
+            android:text="내용을 입력하시오" />
+
+</LinearLayout>
